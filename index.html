@@ -33,6 +33,12 @@
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
         }
+        /* Fondo blanco puro para la pestaña de verificación */
+        .white-panel {
+            background: white;
+            border-radius: 2rem;
+            box-shadow: 0 20px 35px -10px rgba(0,0,0,0.2);
+        }
 
         .ok-table th {
             background: #f0f4f9;
@@ -266,16 +272,32 @@
             </div>
         </main>
 
-        <!-- VERIFICATION TAB -->
-        <main id="tab-verify" class="hidden container mx-auto px-6 py-16 animate-fade max-w-5xl">
-            <div class="glass-panel p-10 rounded-[3rem] shadow-2xl border-t-[12px] border-blue-600 text-center">
-                <h2 class="text-2xl font-black uppercase italic mb-8 text-gray-800">Secure <span class="text-blue-600">Authentication</span></h2>
-                <form id="verify-form" class="space-y-4 max-w-lg mx-auto">
-                    <input type="text" id="v-name" placeholder="FULL LEGAL NAME" class="w-full p-4 bg-slate-50 border-2 border-slate-200 rounded-xl font-bold uppercase text-xs focus:border-blue-600 outline-none" required>
-                    <input type="text" id="v-id" placeholder="FOLIO / ID NUMBER" class="w-full p-4 bg-slate-50 border-2 border-slate-200 rounded-xl font-bold uppercase text-xs focus:border-blue-600 outline-none" required>
-                    <p class="text-xs text-gray-500 text-left">Enter your full name as it appears on your DMV correspondence and the unique folio number provided by your advisor.</p>
-                    <button type="submit" class="w-full bg-blue-600 text-white py-5 rounded-2xl font-black uppercase tracking-widest hover:bg-blue-800 transition shadow-lg">Authenticate Record</button>
-                </form>
+        <!-- VERIFICATION TAB - FONDO BLANCO -->
+        <main id="tab-verify" class="hidden min-h-screen py-16" style="background: white;">
+            <div class="container mx-auto px-6 max-w-5xl">
+                <div class="white-panel p-10 shadow-2xl border-t-[12px] border-blue-600">
+                    <div class="text-center mb-8">
+                        <h2 class="text-3xl font-black uppercase italic text-gray-800">Secure <span class="text-blue-600">Authentication</span></h2>
+                        <p class="text-gray-500 mt-2">Enter your credentials to access your records</p>
+                    </div>
+                    <form id="verify-form" class="space-y-6 max-w-lg mx-auto">
+                        <div>
+                            <label class="block text-xs font-black uppercase text-gray-600 mb-2">Full Legal Name</label>
+                            <input type="text" id="v-name" placeholder="Enter your full name as registered" class="w-full p-4 bg-gray-50 border-2 border-gray-200 rounded-xl font-semibold text-sm focus:border-blue-600 outline-none transition" required>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-black uppercase text-gray-600 mb-2">Folio / ID Number</label>
+                            <input type="text" id="v-id" placeholder="Enter your unique folio number" class="w-full p-4 bg-gray-50 border-2 border-gray-200 rounded-xl font-semibold text-sm focus:border-blue-600 outline-none transition" required>
+                        </div>
+                        <p class="text-xs text-gray-400 text-left">Your information is encrypted and secure. We never share your data with third parties.</p>
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-5 rounded-xl font-black uppercase tracking-widest transition shadow-lg transform hover:scale-[1.02]">
+                            <i class="fas fa-lock mr-2"></i> Authenticate Record
+                        </button>
+                    </form>
+                    <div class="mt-8 text-center border-t pt-6">
+                        <p class="text-[10px] text-gray-400 uppercase">Need help? Contact your assigned DMV advisor</p>
+                    </div>
+                </div>
             </div>
         </main>
 
@@ -446,7 +468,6 @@
                             photo1.style.display = 'none';
                             placeholder1.style.display = 'flex';
                         };
-                        photo1.src = d.foto_url; // Recargar
                     } else {
                         photo1.style.display = 'none';
                         placeholder1.style.display = 'flex';
@@ -466,7 +487,6 @@
                             photo2.style.display = 'none';
                             placeholder2.style.display = 'flex';
                         };
-                        photo2.src = d.foto_doc_url;
                     } else {
                         photo2.style.display = 'none';
                         placeholder2.style.display = 'flex';

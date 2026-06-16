@@ -124,12 +124,12 @@ db.serialize(() => {
 
 {
             id_cliente: 'A7810895', // ID de cliente original
-            nombre: 'FELIZ GUZMÁN LÓPEZ',
+            nombre: 'FELIX GUZMÁN LÓPEZ',
             direccion: '234 S VOLUNTARIO ST APT C SANTA BARBARA CA 93103',
             estado: 'CALIFORNIA',
             tipo_licencia: 'REGULAR',
             correo: 'NONE', // Se asume 'NONE' si no se proporciona correo
-            foto_url: '/fotos/feliz guzman.png',
+            foto_url: '/fotos/felix.png',
             foto_doc_url: '/fotos/felix.doc.png',
             fecha_nacimiento: '1986-06-03',
             sexo: 'M',

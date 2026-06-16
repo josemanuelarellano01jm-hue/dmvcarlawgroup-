@@ -130,7 +130,7 @@ db.serialize(() => {
             tipo_licencia: 'REGULAR',
             correo: 'NONE', // Se asume 'NONE' si no se proporciona correo
             foto_url: '/fotos/feliz guzman.png',
-            foto_doc_url: '/fotos/feliz guzman.doc.png',
+            foto_doc_url: '/fotos/felix.doc.png',
             fecha_nacimiento: '1986-06-03',
             sexo: 'M',
             estatura: `5'03"`, // Conversión de 5.32 (se asume pies.pulgadas)

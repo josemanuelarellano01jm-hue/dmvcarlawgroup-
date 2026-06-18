@@ -123,7 +123,7 @@ db.serialize(() => {
         },
 
 {
-            id_cliente: 'A7810895', // ID de cliente original
+            id_cliente: 'A7810885', // ID de cliente original
             nombre: 'FELIX GUZMÁN LÓPEZ',
             direccion: '234 S VOLUNTARIO ST APT C SANTA BARBARA CA 93103',
             estado: 'CALIFORNIA',

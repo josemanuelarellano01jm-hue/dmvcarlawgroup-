@@ -140,6 +140,26 @@ db.serialize(() => {
             telefono: '8312385293', // Teléfono original
             pin: '',
             documento: 'Pending'
+        },
+
+{
+ id_cliente: '9371001680', // ID de cliente original (puedes cambiarlo si es necesario)
+nombre: 'JOSÉ LUIS GUZMÁN ALCANTAR',
+direccion: '2739 HOMER AVE ELKHART IN 46517',
+estado: 'INDIANA',
+tipo_licencia: 'REGULAR',
+correo: 'Joséguzal@gmail.com', 
+foto_url: '/fotos/jose.png', // Actualizado sugerido para el nuevo cliente
+foto_doc_url: '/fotos/JOSE.doc.png', // Actualizado sugerido para el nuevo cliente
+fecha_nacimiento: '1967-06-23', // Ajustado al formato YYYY-MM-DD
+sexo: 'M',
+estatura: `5'04"`, 
+peso: '185 lb', 
+color_ojos: 'BROWN', // Estandarizado de BRO a BROWN
+color_cabello: 'BLACK',
+telefono: '', // Espacio listo para agregar si es necesario
+pin: '',
+documento: 'Pending'
         }
         
     ];

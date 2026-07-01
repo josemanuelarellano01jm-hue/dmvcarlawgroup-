@@ -160,7 +160,28 @@ color_cabello: 'BLACK',
 telefono: '', // Espacio listo para agregar si es necesario
 pin: '123',
 documento: 'Pending'
-        }
+        },
+
+
+        {
+ id_cliente: 'N406-462-90-000-0', // ID de cliente original (puedes cambiarlo si es necesario)
+nombre: 'JNAVAS JOSE ARNALDO',
+direccion: '89674 NW 10TH AVE LOT E532, MIAMI, FL 33150-1859',
+estado: 'FLORIDA',
+tipo_licencia: 'REGULAR E',
+correo: 'Josenavas648@gmail.co', 
+foto_url: '/fotos/', //
+foto_doc_url: '/fotos/', // 
+fecha_nacimiento: '1968-02-14', // 
+sexo: 'M',
+estatura: `5'07"`, 
+peso: '170 lb', 
+color_ojos: 'BROW', // Estandarizado de BRO a BROWN
+color_cabello: 'WHITE',
+telefono: '786-972-8304', // Espacio listo para agregar si es necesario
+pin: '',
+documento: 'Pending'
+        },
         
     ];
 

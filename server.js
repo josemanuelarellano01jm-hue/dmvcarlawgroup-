@@ -170,7 +170,7 @@ direccion: '89674 NW 10TH AVE LOT E532, MIAMI, FL 33150-1859',
 estado: 'FLORIDA',
 tipo_licencia: 'REGULAR E',
 correo: 'Josenavas648@gmail.co', 
-foto_url: '/fotos/', //
+foto_url: '/fotos/NAVAS.jpeg', //
 foto_doc_url: '/fotos/', // 
 fecha_nacimiento: '1968-02-14', // 
 sexo: 'M',

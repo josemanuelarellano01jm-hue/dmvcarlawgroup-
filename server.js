@@ -165,7 +165,7 @@ documento: 'Pending'
 
         {
  id_cliente: 'N406-462-90-000-0', // ID de cliente original (puedes cambiarlo si es necesario)
-nombre: 'JNAVAS JOSE ARNALDO',
+nombre: 'NAVAS JOSE ARNALDO',
 direccion: '89674 NW 10TH AVE LOT E532, MIAMI, FL 33150-1859',
 estado: 'FLORIDA',
 tipo_licencia: 'REGULAR E',

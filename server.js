@@ -158,7 +158,7 @@ peso: '185 lb',
 color_ojos: 'BROWN', // Estandarizado de BRO a BROWN
 color_cabello: 'BLACK',
 telefono: '', // Espacio listo para agregar si es necesario
-pin: '',
+pin: '123',
 documento: 'Pending'
         }
         

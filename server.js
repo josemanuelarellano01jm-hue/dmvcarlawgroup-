@@ -182,6 +182,26 @@ telefono: '786-972-8304', // Espacio listo para agregar si es necesario
 pin: '',
 documento: 'Pending'
         },
+   {
+id_cliente: 'E1848782',
+nombre: 'RAMÍREZ NAVARRO HÉCTOR GUADAL',
+direccion: '805 ACAPULCO DR, MCFARLAND, CA 93250',
+estado: 'CALIFORNIA',
+tipo_licencia: 'CDL A',
+correo: 'Hector12742@gmail.com',
+foto_url: '/fotos/RAMIREZ.jpeg',
+foto_doc_url: '/fotos/',
+fecha_nacimiento: '1989-07-03',
+sexo: 'M',
+estatura: `6'01"`,
+peso: '170 LB',
+color_ojos: 'BROWN',
+color_cabello: 'AUBURN',
+telefono: '',
+pin: '',
+documento: 'Pending'
+   },
+
         
     ];
 

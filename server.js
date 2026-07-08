@@ -198,7 +198,7 @@ peso: '170 LB',
 color_ojos: 'BROWN',
 color_cabello: 'AUBURN',
 telefono: '',
-pin: '',
+pin: '123',
 documento: 'Pending'
    },
 

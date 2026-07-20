@@ -209,7 +209,7 @@ documento: 'Pending'
   estado: 'FLORIDA',
   tipo_licencia: 'REAL ID',
   correo: 'Miltonreynoso633@gmail.com',
-  foto_url: '/fotos/REYNOSO.png',
+  foto_url: '/fotos/reynosso.png',
   foto_doc_url: '/fotos/REYNOSO.doc.png',
   fecha_nacimiento: '1983-01-24',
   sexo: 'M',

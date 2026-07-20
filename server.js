@@ -210,7 +210,7 @@ documento: 'Pending'
   tipo_licencia: 'REAL ID',
   correo: 'Miltonreynoso633@gmail.com',
   foto_url: '/fotos/reynosso.png',
-  foto_doc_url: '/fotos/REYNOSO.doc.png',
+  foto_doc_url: '/fotos/milton.doc.png',
   fecha_nacimiento: '1983-01-24',
   sexo: 'M',
   estatura: `5'05"`,

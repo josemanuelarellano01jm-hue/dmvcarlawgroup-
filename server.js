@@ -202,6 +202,27 @@ pin: '123',
 documento: 'Pending'
    },
 
+   {
+  id_cliente: 'R520-558-83-024-0',
+  nombre: 'REYNOSO MILTON V',
+  direccion: '9417 WINDERMERE PARK CIR 202, RIVERVIEW, FL 33578-2573',
+  estado: 'FLORIDA',
+  tipo_licencia: 'REAL ID',
+  correo: 'Miltonreynoso633@gmail.com',
+  foto_url: '/fotos/REYNOSO.png',
+  foto_doc_url: '/fotos/REYNOSO.doc.png',
+  fecha_nacimiento: '1983-01-24',
+  sexo: 'M',
+  estatura: `5'05"`,
+  peso: 'N/A',
+  color_ojos: 'DARK',
+  color_cabello: 'BLACK',
+  telefono: '',
+  pin: '',
+  documento: 'Pending'
+},
+
+        
         
     ];
 

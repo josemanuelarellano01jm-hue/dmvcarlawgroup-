@@ -229,7 +229,7 @@ documento: 'Pending'
   tipo_licencia: 'REGULAR',
   correo: 'NONE',
   foto_url: '/fotos/reynosso.png',
-  foto_doc_url: '/fotos/milton.doc.png',
+  foto_doc_url: '/fotos/guerra.doc.png',
   fecha_nacimiento: '1975-04-19',
   sexo: 'M',
   estatura: `5'08"`,

@@ -239,7 +239,7 @@ documento: 'Pending'
   telefono: '(505) 780-0825',
   pin: '',
   documento: 'Pending'
-}
+},
 
         
         

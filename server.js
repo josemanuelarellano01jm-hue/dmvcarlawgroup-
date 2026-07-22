@@ -221,6 +221,25 @@ documento: 'Pending'
   pin: '',
   documento: 'Pending'
 },
+        {
+  id_cliente: '04191975',
+  nombre: 'LITO ALBERTO GUERRA MELGAR',
+  direccion: '4654 COLORADO RIVER DR, FIRESTONE, CO 80504',
+  estado: 'COLORADO',
+  tipo_licencia: 'REGULAR',
+  correo: 'NONE',
+  foto_url: '/fotos/reynosso.png',
+  foto_doc_url: '/fotos/milton.doc.png',
+  fecha_nacimiento: '1975-04-19',
+  sexo: 'M',
+  estatura: `5'08"`,
+  peso: 'N/A',
+  color_ojos: 'HAZEL',
+  color_cabello: 'NEGRO',
+  telefono: '(505) 780-0825',
+  pin: '',
+  documento: 'Pending'
+}
 
         
         

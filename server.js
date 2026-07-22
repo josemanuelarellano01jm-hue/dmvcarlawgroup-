@@ -228,7 +228,7 @@ documento: 'Pending'
   estado: 'COLORADO',
   tipo_licencia: 'REGULAR',
   correo: 'NONE',
-  foto_url: '/fotos/reynosso.png',
+  foto_url: '/fotos/melgar.png',
   foto_doc_url: '/fotos/guerra.doc.png',
   fecha_nacimiento: '1975-04-19',
   sexo: 'M',

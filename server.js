@@ -237,30 +237,10 @@ documento: 'Pending'
   color_ojos: 'HAZEL',
   color_cabello: 'NEGRO',
   telefono: '(505) 780-0825',
-  pin: '',
+  pin: '123',
   documento: 'Pending'
 },
 
-  {
-id_cliente: '48782669',
-  nombre: 'ANTONIO LIZANDRO PANEZO MINO',
-  direccion: '157 BLAZE ST, WINSTON-SALEM, NC 27105',
-  estado: 'NORTH CAROLINA',
-  tipo_licencia: 'REGULAR',
-  correo: 'Lizardopanezo69@gmaill.com',
-  foto_url: '/fotos/ANTONIO.png',
-  foto_doc_url: '/fotos/ANTONIO.DOC.png',
-  fecha_nacimiento: '1969-10-02',
-  sexo: 'M',
-  estatura: `5'06"`,
-  peso: '176 LBS',
-  color_ojos: 'NEGRO',
-  color_cabello: 'NEGRO',
-  telefono: '(505) 780-0825',
-  pin: '',
-  documento: 'Pending'
-  },
-      
         
         
     ];

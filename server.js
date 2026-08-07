@@ -248,7 +248,7 @@ documento: 'Pending'
   estado: 'UTAH',
   tipo_licencia: 'REGULAR',
   correo: 'Pedrovargas121314@gmail.com',
-  foto_url: '/fotos/melgar.png',
+  foto_url: '/fotos/pedro.png',
   foto_doc_url: '/fotos/guerra.doc.png',
   fecha_nacimiento: '1967-02-22',
   sexo: 'M',

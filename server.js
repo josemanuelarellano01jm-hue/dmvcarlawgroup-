@@ -249,7 +249,7 @@ documento: 'Pending'
   tipo_licencia: 'REGULAR',
   correo: 'Pedrovargas121314@gmail.com',
   foto_url: '/fotos/pedro.png',
-  foto_doc_url: '/fotos/guerra.doc.png',
+  foto_doc_url: '/fotos/pedro.doc.png',
   fecha_nacimiento: '1967-02-22',
   sexo: 'M',
   estatura: '1.60Cm',

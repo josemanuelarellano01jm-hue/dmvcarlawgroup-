@@ -269,7 +269,7 @@ documento: 'Pending'
   estado: 'CALIFORNIA',
   tipo_licencia: 'REGULAR',
   correo: 'dulce5martinez@icloud.com',
-  foto_url: '/foto/dulce.png',
+  foto_url: '/fotos/dulce.png',
   foto_doc_url: '/fotos/dulce.doc.png',
   fecha_nacimiento: '2005-09-11',
   sexo: 'F',

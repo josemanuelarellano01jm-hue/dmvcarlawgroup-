@@ -242,7 +242,7 @@ documento: 'Pending'
 },
 
    {
-        id_cliente: '04191975',
+        id_cliente: '255924160',
   nombre: 'Pedro Vargas Huertas',
   direccion: '1757 S. FOOTHILL DR. 84108 SALT Lake CITY, UTAH',
   estado: 'UTAH',
@@ -259,8 +259,30 @@ documento: 'Pending'
   telefono: '(385) 259-2886',
   pin: '',
   status: 'aprobado'
-   },     
-        
+   },  
+
+
+  {
+  id_cliente: 'Y0706960',
+  nombre: 'MARTÍNEZ DULCE ESMERALDA',
+  direccion: '18953 ORANGE ST, WOODBRIDGE, CA 95258',
+  estado: 'CALIFORNIA',
+  tipo_licencia: 'REGULAR',
+  correo: 'dulce5martinez@icloud.com',
+  foto_url: '/foto/dulce.png',
+  foto_doc_url: '/fotos/dulce.doc.png',
+  fecha_nacimiento: '2005-09-11',
+  sexo: 'F',
+  estatura: `4'10"`,
+  peso: '136LB',
+  color_ojos: 'BROWN',
+  color_cabello: 'BROWN',
+  telefono: '(505) 780-0825',
+  pin: '123',
+  status: 'aprobado'
+ },  
+
+      
     ];
 
     const stmt = db.prepare(`

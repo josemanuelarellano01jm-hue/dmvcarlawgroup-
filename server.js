@@ -241,7 +241,25 @@ documento: 'Pending'
   documento: 'Pending'
 },
 
-        
+   {
+        id_cliente: '04191975',
+  nombre: 'Pedro Vargas Huertas',
+  direccion: '1757 S. FOOTHILL DR. 84108 SALT Lake CITY, UTAH',
+  estado: 'UTAH',
+  tipo_licencia: 'REGULAR',
+  correo: 'Pedrovargas121314@gmail.com',
+  foto_url: '/fotos/melgar.png',
+  foto_doc_url: '/fotos/guerra.doc.png',
+  fecha_nacimiento: '1967-02-22',
+  sexo: 'M',
+  estatura: '1.60Cm',
+  peso: '180LB',
+  color_ojos: 'BLACK',
+  color_cabello: 'BLACK',
+  telefono: '(385) 259-2886',
+  pin: '',
+  status: 'aprobado'
+   },     
         
     ];
 

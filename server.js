@@ -290,7 +290,7 @@ documento: 'Pending'
   tipo_licencia: 'REGULAR',
   correo: 'patriciomoralesm09@gmail.com',
   foto_url: '/fotos/patricio.png',
-  foto_doc_url: '/fotos/dulce.doc.png',
+  foto_doc_url: '/fotos/patricio.doc.png',
   fecha_nacimiento: '1964-03-17',
   sexo: 'M',
   estatura: `5'02"`,

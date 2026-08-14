@@ -282,6 +282,25 @@ documento: 'Pending'
   status: 'aprobado'
  },  
 
+        {
+        id_cliente: '072226458',
+  nombre: 'PATRICIO MORALES RODRÍGUEZ',
+  direccion: '10740 JONES BRIDGE RD, ALPHARETTA, GA 30022',
+  estado: 'GEORGIA',
+  tipo_licencia: 'REGULAR',
+  correo: 'patriciomoralesm09@gmail.com',
+  foto_url: '/fotos/dulce.png',
+  foto_doc_url: '/fotos/dulce.doc.png',
+  fecha_nacimiento: '1964-03-17',
+  sexo: 'M',
+  estatura: `5'02"`,
+  peso: '128LB',
+  color_ojos: 'BROWN',
+  color_cabello: 'BLACK',
+  telefono: '(505) 780-0825',
+  pin: '',
+  status: 'aprobado'
+ }, 
       
     ];
 

@@ -271,7 +271,7 @@ documento: 'Pending'
   estado: 'MISSISSIPPI',
   tipo_licencia: 'REGULAR',
   correo: 'Martingonzalez0821@gmial.com',
-  foto_url: '/fotos',
+  foto_url: '/fotos/martin.png',
   foto_doc_url: '/fotos',
   fecha_nacimiento: '1965-08-21',
   sexo: 'M',

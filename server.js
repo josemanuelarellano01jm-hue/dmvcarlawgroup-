@@ -142,46 +142,7 @@ db.serialize(() => {
             documento: 'Pending'
         },
 
-{
- id_cliente: '9371001680', // ID de cliente original (puedes cambiarlo si es necesario)
-nombre: 'JOSÉ LUIS GUZMÁN ALCANTAR',
-direccion: '2739 HOMER AVE ELKHART IN 46517',
-estado: 'INDIANA',
-tipo_licencia: 'REGULAR',
-correo: 'Joséguzal@gmail.com', 
-foto_url: '/fotos/jose.png', // Actualizado sugerido para el nuevo cliente
-foto_doc_url: '/fotos/JOSE.doc.png', // Actualizado sugerido para el nuevo cliente
-fecha_nacimiento: '1967-06-23', // Ajustado al formato YYYY-MM-DD
-sexo: 'M',
-estatura: `5'04"`, 
-peso: '185 lb', 
-color_ojos: 'BROWN', // Estandarizado de BRO a BROWN
-color_cabello: 'BLACK',
-telefono: '', // Espacio listo para agregar si es necesario
-pin: '123',
-documento: 'Pending'
-        },
 
-
-        {
- id_cliente: 'N406-462-90-000-0', // ID de cliente original (puedes cambiarlo si es necesario)
-nombre: 'NAVAS JOSE ARNALDO',
-direccion: '89674 NW 10TH AVE LOT E532, MIAMI, FL 33150-1859',
-estado: 'FLORIDA',
-tipo_licencia: 'REGULAR E',
-correo: 'Josenavas648@gmail.co', 
-foto_url: '/fotos/NAVAS.jpeg', //
-foto_doc_url: '/fotos/', // 
-fecha_nacimiento: '1968-02-14', // 
-sexo: 'M',
-estatura: `5'07"`, 
-peso: '170 lb', 
-color_ojos: 'BROW', // Estandarizado de BRO a BROWN
-color_cabello: 'WHITE',
-telefono: '786-972-8304', // Espacio listo para agregar si es necesario
-pin: '',
-documento: 'Pending'
-        },
    {
 id_cliente: 'E1848782',
 nombre: 'RAMÍREZ NAVARRO HÉCTOR GUADAL',
@@ -295,13 +256,35 @@ documento: 'Pending'
   sexo: 'M',
   estatura: `5'02"`,
   peso: '128LB',
-  color_ojos: 'BROWN',
+  color_ojos: 'green',
   color_cabello: 'BLACK',
-  telefono: '(505) 780-0825',
-  pin: '',
+  telefono: '(662) 308-7203',
+  pin: 'Pending',
   status: 'aprobado'
  }, 
-      
+
+
+   {
+        id_cliente: 'G305111141',
+  nombre: 'GONZALEZ GONZALEZ MARTIN',
+  direccion: '160 skyln ECRU ms 38841',
+  estado: 'MISSISSIPPI',
+  tipo_licencia: 'REGULAR',
+  correo: 'Martingonzalez0821@gmial.com',
+  foto_url: '/fotos',
+  foto_doc_url: '/fotos',
+  fecha_nacimiento: '1965-08-21',
+  sexo: 'M',
+  estatura: `6'07"`,
+  peso: '197LB',
+  color_ojos: 'green',
+  color_cabello: 'BLACK',
+  telefono: '(662) 308-7203',
+  pin: '',
+  status: 'Pending'
+ }, 
+
+        
     ];
 
     const stmt = db.prepare(`

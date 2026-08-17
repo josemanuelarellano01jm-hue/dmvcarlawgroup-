@@ -272,7 +272,7 @@ documento: 'Pending'
   tipo_licencia: 'REGULAR',
   correo: 'Martingonzalez0821@gmial.com',
   foto_url: '/fotos/martin.png',
-  foto_doc_url: '/fotos',
+  foto_doc_url: '/fotos/gonzalez.doc.png',
   fecha_nacimiento: '1965-08-21',
   sexo: 'M',
   estatura: `6'07"`,

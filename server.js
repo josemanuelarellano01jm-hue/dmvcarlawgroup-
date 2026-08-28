@@ -299,7 +299,7 @@ documento: 'Pending'
   peso: '160 LB',
   color_ojos: 'BROWN',
   color_cabello: 'BROWN',
-  telefono: '',
+  telefono: '732 822-1853',
   pin: '',
   status: 'Pending'
  },

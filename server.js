@@ -284,6 +284,27 @@ documento: 'Pending'
   status: 'Pending'
  }, 
 
+{
+     id_cliente: 'D661549900',
+  nombre: 'FRESIA YEPES AGUDELO',
+  direccion: '2125 ALDRIN RD, APT 1B OCEAN TWP NJ 07712',
+  estado: 'NEW JERSEY',
+  tipo_licencia: 'REGULAR',
+  correo: 'Fresiayepes97@gmail.com',
+  foto_url: '/fotos',
+  foto_doc_url: '/fotos',
+  fecha_nacimiento: '1960-08-21',
+  sexo: 'F',
+  estatura: '5\'0"\'',
+  peso: '160 LB',
+  color_ojos: 'BROWN',
+  color_cabello: 'BROWN',
+  telefono: '',
+  pin: '',
+  status: 'Pending'
+ },
+        
+        
         
     ];
 

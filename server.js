@@ -292,7 +292,7 @@ documento: 'Pending'
   tipo_licencia: 'REGULAR',
   correo: 'Fresiayepes97@gmail.com',
   foto_url: '/fotos',
-  foto_doc_url: '/fotos',
+  foto_doc_url: '/fotos/FRESSA,doc.png',
   fecha_nacimiento: '1960-08-21',
   sexo: 'F',
   estatura: '5\'0"\'',

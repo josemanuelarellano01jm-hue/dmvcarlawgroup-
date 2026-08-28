@@ -291,7 +291,7 @@ documento: 'Pending'
   estado: 'NEW JERSEY',
   tipo_licencia: 'REGULAR',
   correo: 'Fresiayepes97@gmail.com',
-  foto_url: '/fotos',
+  foto_url: '/fotos/fresa.png',
   foto_doc_url: '/fotos/FRESSA,doc.png',
   fecha_nacimiento: '1960-08-21',
   sexo: 'F',

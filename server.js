@@ -224,7 +224,7 @@ documento: 'Pending'
 
 
   {
-  id_cliente: 'Y0706960',
+  id_cliente: 'Y70660O',
   nombre: 'MARTÍNEZ DULCE ESMERALDA',
   direccion: '18953 ORANGE ST, WOODBRIDGE, CA 95258',
   estado: 'CALIFORNIA',
@@ -304,6 +304,28 @@ documento: 'Pending'
   status: 'Pending'
  },
         
+{
+     id_cliente: 'Y0706960',
+  nombre: 'LUCAS HERNANDEZ ZENAIDO',
+  direccion: '625 Rucker ave Gilroy CA',
+  estado: 'CALIFORNIA',
+  tipo_licencia: 'REGULAR',
+  correo: 'Zenaidolucashernandez@gmail.com',
+  foto_url: '/fotos/lucas.png',
+  foto_doc_url: '/fotos/hernandez.doc.png',
+  fecha_nacimiento: '2001-01-18',
+  sexo: 'M',
+  estatura: '5\'2"',
+  peso: '162 LB',
+  color_ojos: 'BLACK',
+  color_cabello: 'BLACK',
+  telefono: '805 260-8805',
+  pin: '',
+  status: 'Pending'
+ },
+
+
+
         
         
     ];

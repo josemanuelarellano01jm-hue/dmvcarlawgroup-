@@ -324,9 +324,25 @@ documento: 'Pending'
   status: 'Pending'
  },
 
-
-
-        
+{
+id_cliente: '33074326',
+  nombre: 'LORENZO RICON ELPIDIO',
+  direccion: '725 JESSOP PL YORK, PA 17401',
+  estado: 'PENNSYLVANIA',
+  tipo_licencia: 'REGULAR',
+  correo: 'NONE',
+  foto_url: '/fotos',
+  foto_doc_url: '/fotos',
+  fecha_nacimiento: '1956-01-09',
+  sexo: 'M',
+  estatura: '5\'11"',
+  peso: '162 LB',
+  color_ojos: 'BLACK',
+  color_cabello: 'NONE',
+  telefono: '8495801353',
+  pin: '',
+  status: 'Pending'
+},
         
     ];
 

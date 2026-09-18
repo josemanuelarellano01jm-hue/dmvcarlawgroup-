@@ -345,7 +345,7 @@ id_cliente: '33074326',
 },
 
 {
-        id_cliente: '33074326',
+        id_cliente: 'C3246290',
   nombre: 'PÉREZ ALFREDO VILLELA',
   direccion: '1501 IMPERIAL AVE SAN DIEGO, CA 92101',
   estado: 'CALIFORNIA',

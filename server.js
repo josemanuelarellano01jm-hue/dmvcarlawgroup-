@@ -343,6 +343,26 @@ id_cliente: '33074326',
   pin: '',
   status: 'Pending'
 },
+
+{
+        id_cliente: '33074326',
+  nombre: 'PÉREZ ALFREDO VILLELA',
+  direccion: '1501 IMPERIAL AVE SAN DIEGO, CA 92101',
+  estado: 'CALIFORNIA',
+  tipo_licencia: 'CLASS C',
+  correo: 'fredyalfredoperez357@gmail.com',
+  foto_url: '/fotos/',
+  foto_doc_url: '/fotos/',
+  fecha_nacimiento: '1961-11-19',
+  sexo: 'M',
+  estatura: '5\'05"',
+  peso: '',
+  color_ojos: 'OSCUROS',
+  color_cabello: 'BLANCO',
+  telefono: '8495801353',
+  pin: '123',
+  status: 'Pending'
+  },      
         
     ];
 

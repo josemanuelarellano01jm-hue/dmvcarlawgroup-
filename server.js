@@ -362,7 +362,28 @@ id_cliente: '33074326',
   telefono: '8495801353',
   pin: '123',
   status: 'Pending'
-  },      
+  },    
+
+{
+ id_cliente: '119072101',
+  nombre: 'COELHO RODRIGUES JOSÉ',
+  direccion: '3237 54TH ST FLUSHING, NY 11377',
+  estado: 'NEW YORK',
+  tipo_licencia: 'CLASE D',
+  correo: 'Jrcoelho1407@hotmail.com',
+  foto_url: '',
+  foto_doc_url: '',
+  fecha_nacimiento: '1948-06-06',
+  sexo: 'M',
+  estatura: '5\'04"',
+  peso: '100LB',
+  color_ojos: 'BLACK',
+  color_cabello: 'BLACK',
+  telefono: '8572464247',
+  pin: '',
+  status: 'Pending'
+    }, 
+
         
     ];
 

@@ -401,7 +401,7 @@ id_cliente: '33074326',
   color_ojos: 'BLACK',
   color_cabello: 'BLACK',
   telefono: '8572464247',
-  pin: '',
+  pin: '123',
   status: 'Pending'
 },
 

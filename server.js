@@ -384,6 +384,27 @@ id_cliente: '33074326',
   status: 'Pending'
     }, 
 
+
+        {
+  id_cliente: '33320266',
+  nombre: 'MEJÍA MORERA ABRAHAM',
+  direccion: '5 W 11TH ST HAZLETON, PA 18201-3204',
+  estado: 'PENSILVANIA',
+  tipo_licencia: 'REGULAR',
+  correo: 'abrahanmejia681@gmail.com',
+  foto_url: 'fotos/abraham .png',
+  foto_doc_url: 'fotos/ABRAHAM.doc.png',
+  fecha_nacimiento: '1977-10-12',
+  sexo: 'M',
+  estatura: '5\'08"',
+  peso: '140LB',
+  color_ojos: 'BLACK',
+  color_cabello: 'BLACK',
+  telefono: '8572464247',
+  pin: '',
+  status: 'Pending'
+},
+
         
     ];
 

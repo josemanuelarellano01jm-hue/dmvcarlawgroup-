@@ -405,6 +405,25 @@ id_cliente: '33074326',
   status: 'Pending'
 },
 
+{
+  id_cliente: '22045264',
+  nombre: 'PRIETO MORENO ARTURO',
+  direccion: '1939 S GOODNIGHT TRL ODESSA TX 79763',
+  estado: 'TEXAS',
+  tipo_licencia: 'REGULAR',
+  correo: 'Arturoprieto913@gmail.com',
+  foto_url: 'fotos/',
+  foto_doc_url: 'fotos/',
+  fecha_nacimiento: '1958-07-28',
+  sexo: 'M',
+  estatura: '5\'11"',
+  peso: '220 LB',
+  color_ojos: 'BROWN',
+  color_cabello: 'BLACK',
+  telefono: '8572464247',
+  pin: '',
+  status: 'Pending'
+},    
         
     ];
 

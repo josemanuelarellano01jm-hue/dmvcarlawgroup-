@@ -424,6 +424,29 @@ id_cliente: '33074326',
   pin: '',
   status: 'Pending'
 },    
+
+{
+  id_cliente: 'C616145915000', // Conservado o actualizable según tu sistema
+  nombre: 'CASTILLO MARTÍNEZ RIGOBERTO',
+  direccion: '5461 NW 36TH TERRACE, FT LAUDERDALE, FL 33309',
+  estado: 'FLORIDA',
+  tipo_licencia: 'REGULAR',
+  correo: 'Rigobertocastillo485@gmail.com',
+  foto_url: '/fotos/rigoberto.png',
+  foto_doc_url: '/fotos/rigoberto.doc.png',
+  fecha_nacimiento: '1983-05-19',
+  sexo: 'M',
+  estatura: '5\'05"',
+  peso: '80 kg',
+  color_ojos: 'NEGROS',
+  color_cabello: 'NEGRO',
+  telefono: '754 2242933',
+  pin: '',
+  status: 'Pending'
+},
+
+
+        
         
     ];
 

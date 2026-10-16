@@ -328,7 +328,7 @@ id_cliente: '33074326',
 
 
 {
-  id_cliente: '', // No proporcionado
+  id_cliente: 'Y0357961', 
   nombre: 'CARRERA AGUILAR SEBASTIÁN',
   direccion: '1632 SEGUNDA STREET RICHMOND, CA 94801',
   estado: 'CALIFORNIA',

@@ -334,8 +334,8 @@ id_cliente: '33074326',
   estado: 'CALIFORNIA',
   tipo_licencia: 'REGULAR',
   correo: 'Sebastianaguilar1574@iCloud.com',
-  foto_url: '', // Pendiente por asignar
-  foto_doc_url: '', // Pendiente por asignar
+  foto_url: 'fotos/sebastian.png', 
+  foto_doc_url: 'fotos/SEBASTIAN.doc.png',
   fecha_nacimiento: '1974-12-21',
   sexo: 'M', 
   estatura: '5\'08"',

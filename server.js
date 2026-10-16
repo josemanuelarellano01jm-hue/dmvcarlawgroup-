@@ -101,68 +101,8 @@ db.serialize(() => {
             telefono: '',
             pin: '',
             documento: 'Pending'
-        },
-        {
-            id_cliente: 'A7810895',
-            nombre: 'VASQUEZ ANTONIO SIERRA',
-            direccion: '1828 FLORES ST SEASIDE CA 93955',
-            estado: 'CALIFORNIA',
-            tipo_licencia: 'COMERCIAL',
-            correo: 'antoniosierra63@yahoo.com',
-            foto_url: '/fotos/antonioo.png',
-            foto_doc_url: '/fotos/antonio.doc.png',
-            fecha_nacimiento: '1972-07-11',
-            sexo: 'M',
-            estatura: `5'04"`,
-            peso: '140 lb',
-            color_ojos: 'BROWN',
-            color_cabello: 'BLACK',
-            telefono: '8312385293',
-            pin: '123',
-            documento: 'Pending'
-        },
-
-{
-            id_cliente: 'A7810885', // ID de cliente original
-            nombre: 'FELIX GUZMÁN LÓPEZ',
-            direccion: '234 S VOLUNTARIO ST APT C SANTA BARBARA CA 93103',
-            estado: 'CALIFORNIA',
-            tipo_licencia: 'REGULAR',
-            correo: 'NONE', // Se asume 'NONE' si no se proporciona correo
-            foto_url: '/fotos/felix.png',
-            foto_doc_url: '/fotos/felix.doc.png',
-            fecha_nacimiento: '1986-06-03',
-            sexo: 'M',
-            estatura: `5'03"`, // Conversión de 5.32 (se asume pies.pulgadas)
-            peso: '143 lb', // Conversión de 65,200 (se asume gramos a libras)
-            color_ojos: 'BROWN',
-            color_cabello: 'BLACK',
-            telefono: '8312385293', // Teléfono original
-            pin: '',
-            documento: 'Pending'
-        },
-
-
-   {
-id_cliente: 'E1848782',
-nombre: 'RAMÍREZ NAVARRO HÉCTOR GUADAL',
-direccion: '805 ACAPULCO DR, MCFARLAND, CA 93250',
-estado: 'CALIFORNIA',
-tipo_licencia: 'CDL A',
-correo: 'Hector12742@gmail.com',
-foto_url: '/fotos/HECTOR.png',
-foto_doc_url: '/fotos/LICENCIA HECTOR.doc.png',
-fecha_nacimiento: '1989-07-03',
-sexo: 'M',
-estatura: `6'01"`,
-peso: '170 LB',
-color_ojos: 'BROWN',
-color_cabello: 'AUBURN',
-telefono: '',
-pin: '123',
-documento: 'Pending'
-   },
-
+       },
+        
    {
   id_cliente: 'R520-558-83-024-0',
   nombre: 'REYNOSO MILTON V',
@@ -182,87 +122,6 @@ documento: 'Pending'
   pin: '',
   documento: 'Pending'
 },
-        {
-  id_cliente: '04191975',
-  nombre: 'LITO ALBERTO GUERRA MELGAR',
-  direccion: '4654 COLORADO RIVER DR, FIRESTONE, CO 80504',
-  estado: 'COLORADO',
-  tipo_licencia: 'REGULAR',
-  correo: 'NONE',
-  foto_url: '/fotos/melgar.png',
-  foto_doc_url: '/fotos/guerra.doc.png',
-  fecha_nacimiento: '1975-04-19',
-  sexo: 'M',
-  estatura: `5'08"`,
-  peso: 'N/A',
-  color_ojos: 'HAZEL',
-  color_cabello: 'NEGRO',
-  telefono: '(505) 780-0825',
-  pin: '123',
-  documento: 'Pending'
-},
-
-   {
-        id_cliente: '255924160',
-  nombre: 'Pedro Vargas Huertas',
-  direccion: '1757 S. FOOTHILL DR. 84108 SALT Lake CITY, UTAH',
-  estado: 'UTAH',
-  tipo_licencia: 'REGULAR',
-  correo: 'Pedrovargas121314@gmail.com',
-  foto_url: '/fotos/pedro.png',
-  foto_doc_url: '/fotos/pedro.doc.png',
-  fecha_nacimiento: '1967-02-22',
-  sexo: 'M',
-  estatura: '1.60Cm',
-  peso: '180LB',
-  color_ojos: 'BLACK',
-  color_cabello: 'BLACK',
-  telefono: '(385) 259-2886',
-  pin: '',
-  status: 'aprobado'
-   },  
-
-
-  {
-  id_cliente: 'Y70660O',
-  nombre: 'MARTÍNEZ DULCE ESMERALDA',
-  direccion: '18953 ORANGE ST, WOODBRIDGE, CA 95258',
-  estado: 'CALIFORNIA',
-  tipo_licencia: 'REGULAR',
-  correo: 'dulce5martinez@icloud.com',
-  foto_url: '/fotos/dulce.png',
-  foto_doc_url: '/fotos/dulce.doc.png',
-  fecha_nacimiento: '2005-09-11',
-  sexo: 'F',
-  estatura: `4'10"`,
-  peso: '136LB',
-  color_ojos: 'BROWN',
-  color_cabello: 'BROWN',
-  telefono: '(505) 780-0825',
-  pin: '123',
-  status: 'aprobado'
- },  
-
-        {
-        id_cliente: '072226458',
-  nombre: 'PATRICIO MORALES RODRÍGUEZ',
-  direccion: '10740 JONES BRIDGE RD, ALPHARETTA, GA 30022',
-  estado: 'GEORGIA',
-  tipo_licencia: 'REGULAR',
-  correo: 'patriciomoralesm09@gmail.com',
-  foto_url: '/fotos/patricio.png',
-  foto_doc_url: '/fotos/patricio.doc.png',
-  fecha_nacimiento: '1964-03-17',
-  sexo: 'M',
-  estatura: `5'02"`,
-  peso: '128LB',
-  color_ojos: 'BLACK',
-  color_cabello: 'BLACK',
-  telefono: '(662) 308-7203',
-  pin: 'Pending',
-  status: 'aprobado'
- }, 
-
 
    {
         id_cliente: 'G305111141',
@@ -446,6 +305,49 @@ id_cliente: '33074326',
 },
 
 
+{
+  id_cliente: '253 123 928',
+  nombre: 'PINEDA GARCÍA MARIO ROBERTO',
+  direccion: '25D CASTLETON AVE STATEN ISLAND, NY 10301',
+  estado: 'NEW YORK',
+  tipo_licencia: 'REGULAR D',
+  correo: 'robertbtp24@gmail.com', 
+  foto_url: '',
+  foto_doc_url: '',
+  fecha_nacimiento: '1973-06-07',
+  sexo: 'M',
+  estatura: '5\'03"',
+  peso: '180LB',
+  color_ojos: 'BLACK',
+  color_cabello: 'BLACK',
+  telefono: '6109902225', 
+  fecha_vencimiento: '2031-06-07',
+  pin: '',
+  status: 'Pending'
+},
+
+
+{
+  id_cliente: '', // No proporcionado
+  nombre: 'CARRERA AGUILAR SEBASTIÁN',
+  direccion: '1632 SEGUNDA STREET RICHMOND, CA 94801',
+  estado: 'CALIFORNIA',
+  tipo_licencia: 'REGULAR',
+  correo: 'Sebastianaguilar1574@iCloud.com',
+  foto_url: '', // Pendiente por asignar
+  foto_doc_url: '', // Pendiente por asignar
+  fecha_nacimiento: '1974-12-21',
+  sexo: 'M', 
+  estatura: '5\'08"',
+  peso: '195LB',
+  color_ojos: 'BLACK',
+  color_cabello: 'BLACK',
+  telefono: '415 553 0091',
+  fecha_vencimiento: '21/12/1974',
+  pin: '', // 
+  status: 'Pending'
+},
+        
         
         
     ];

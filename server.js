@@ -348,25 +348,7 @@ id_cliente: '33074326',
   status: 'Pending'
 },
         
- {
-  id_cliente: 'Y0357961',
-  nombre: 'CARRANZA CAMPOS OFELIA',
-  direccion: '5467 TYHURST WALKWAY, APT 1 SAN JOSÉ, CA 95123',
-  estado: 'CALIFORNIA',
-  tipo_licencia: 'REGULAR C',
-  correo: 'Carranofelia@yahoo.com',
-  foto_url: 'fotos/carranzaz.png',
-  foto_doc_url: 'fotos/carranza.doc.png',
-  fecha_nacimiento: '1968-02-07',
-  sexo: 'F',
-  estatura: '5"5', // O "5'5" usando comillas dobles afuera
-  peso: '195LB',
-  color_ojos: 'BRN',
-  color_cabello: 'BLACK',
-  telefono: 4083408580,
-  pin:,
-  status: 'Pending'
-};      
+
     ];
 
     const stmt = db.prepare(`

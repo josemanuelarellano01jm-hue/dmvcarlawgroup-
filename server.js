@@ -368,25 +368,7 @@ pin: '',
 documento: 'Pending'
 },
 
- {
-  id_cliente: 'A7810895',
-  nombre: 'VASQUEZ ANTONIO SIERRA',
-  direccion: '1828 FLORES ST, SEASIDE, CA 93955',
-  estado: 'CALIFORNIA',
-  tipo_licencia: 'COMERCIAL',
-  correo: 'antoniosierra63@yahoo.com',
-  foto_url: '/fotos/antonioioo.png', 
-  foto_doc_url: '/fotos/ANTONIO.doc.png', 
-  fecha_nacimiento: '1972-07-11', 
-  sexo: 'M',
-  estatura: '5\'04"',
-  peso: '140 lb',
-  color_ojos: 'BROWN',
-  color_cabello: 'BLACK',
-  telefono: '8312385293', 
-  pin: '',
-  status: 'Retention'
-},
+
 
 
     ];

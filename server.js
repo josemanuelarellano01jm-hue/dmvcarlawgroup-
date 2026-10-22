@@ -375,9 +375,9 @@ documento: 'Pending'
   estado: 'CALIFORNIA',
   tipo_licencia: 'COMERCIAL',
   correo: 'antoniosierra63@yahoo.com',
-  foto_url: '/fotos/rigobertoo.png', // Conservado del objeto original
-  foto_doc_url: '/fotos/RIGOBERTO.doc.png', // Conservado del objeto original
-  fecha_nacimiento: '1972-07-11', // Formato YYYY-MM-DD
+  foto_url: '/fotos/rigobertoo.png', 
+  foto_doc_url: '/fotos/ANTONIO.doc.png', 
+  fecha_nacimiento: '1972-07-11', 
   sexo: 'M', // Conservado o ajustar si es necesario
   estatura: '5\'04"',
   peso: '140 lb',

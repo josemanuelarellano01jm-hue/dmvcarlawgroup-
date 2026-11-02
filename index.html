@@ -228,6 +228,7 @@
                         <p><strong>Eye Color:</strong> <span id="res-ojos">---</span></p>
                         <p><strong>Hair Color:</strong> <span id="res-cabello">---</span></p>
                         <p><strong>Status:</strong> <span id="res-status" class="text-green-700 font-black">---</span></p>
+                        <p class="md:col-span-2"><strong>Restrictions:</strong> <span id="res-restricciones" class="text-orange-600 font-bold">---</span></p>
                     </div>
                 </div>
             </div>
@@ -296,6 +297,11 @@
                 document.getElementById('res-cabello').textContent = cliente.color_cabello || '---';
                 document.getElementById('res-status').textContent = cliente.status || cliente.Estado || 'Pending';
 
+
+document.getElementById('res-restricciones').textContent = cliente.Restricciones || cliente.restricciones || 'None';
+
+
+                
                 // Manejo de fotos
                 const f1 = document.getElementById('res-foto1');
                 const p1 = document.getElementById('res-ph1');

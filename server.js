@@ -407,7 +407,7 @@ documento: 'Pending'
   color_ojos: "BLACK",
   color_cabello: "BLACK",
   telefono: "2676025192",
-  pin: "",
+  pin: "123",
   status: "Retention"
 }
 

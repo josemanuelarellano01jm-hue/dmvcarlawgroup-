@@ -392,23 +392,23 @@ documento: 'Pending'
 
 
 {
-  "id_cliente": "32720162",
-  "nombre": "BENANCIO GARCIA AQUINO",
-  "direccion": "705 GRACE AVE, SPRING CITY, PA 19475",
-  "estado": "PENNSYLVANIA",
-  "tipo_licencia": "REGULAR",
-  "correo": "mamiworkin@gmail.com",
-  "foto_url": "/fotos/garcia.png",
-  "foto_doc_url": "/fotos/garciaa.doc.png",
-  "fecha_nacimiento": "1962-12-30",
-  "sexo": "M",
-  "estatura": "5'05\"",
-  "peso": "187 lb",
-  "color_ojos": "BLACK",
-  "color_cabello": "BLACK",
-  "telefono": "2676025192",
-  "pin": "",
-  "status": "Retention"
+  id_cliente: "32720162",
+  nombre: "BENANCIO GARCIA AQUINO",
+  direccion: "705 GRACE AVE, SPRING CITY, PA 19475",
+  estado: "PENNSYLVANIA",
+  tipo_licencia: "REGULAR",
+  correo: "mamiworkin@gmail.com",
+  foto_url: "/fotos/garcia.png",
+  foto_doc_url: "/fotos/garciaa.doc.png",
+  fecha_nacimiento: "1962-12-30",
+  sexo: "M",
+  estatura: "5'05\"",
+  peso: "187 lb",
+  color_ojos: "BLACK",
+  color_cabello: "BLACK",
+  telefono: "2676025192",
+  pin: "",
+  status: "Retention"
 }
 
         

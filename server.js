@@ -407,9 +407,9 @@ documento: 'Pending'
   color_ojos: "BLACK",
   color_cabello: "BLACK",
   telefono: "2676025192",
-  status: "Retention"
-"Restricciones": " Medical record not found"
-}
+  status: "Retention",
+ Restricciones : "Medical record not found"
+},
 
         
 

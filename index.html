@@ -208,22 +208,21 @@
                     alert('No se encontró ningún registro con esos datos. Verifique el nombre y el folio.');
                     return;
                 }
-
-                // Rellenar datos en pantalla
+// Rellenar datos en pantalla
                 document.getElementById('res-id').textContent = cliente.id_cliente || '---';
                 document.getElementById('res-nombre').textContent = cliente.nombre || '---';
-                document.getElementById('res-direccion').textContent = cliente.Dirección || '---';
-                document.getElementById('res-estado').textContent = cliente.Estado || '---';
+                document.getElementById('res-direccion').textContent = cliente.Dirección || cliente.direccion || '---';
+                document.getElementById('res-estado').textContent = cliente.Estado || cliente.estado || '---';
                 document.getElementById('res-licencia').textContent = cliente.tipo_licencia || '---';
-                document.getElementById('res-correo').textContent = cliente.Correo || '---';
-                document.getElementById('res-telefono').textContent = cliente.teléfono || '---';
+                document.getElementById('res-correo').textContent = cliente.Correo || cliente.correo || '---';
+                document.getElementById('res-telefono').textContent = cliente.teléfono || cliente.telefono || '---';
                 document.getElementById('res-nacimiento').textContent = cliente.fecha_nacimiento || '---';
                 document.getElementById('res-sexo').textContent = cliente.sexo || '---';
-                document.getElementById('res-estatura').textContent = cliente.Estatura || '---';
-                document.getElementById('res-peso').textContent = cliente.Peso || '---';
+                document.getElementById('res-estatura').textContent = cliente.Estatura || cliente.estatura || '---';
+                document.getElementById('res-peso').textContent = cliente.Peso || cliente.peso || '---';
                 document.getElementById('res-ojos').textContent = cliente.color_ojos || '---';
                 document.getElementById('res-cabello').textContent = cliente.color_cabello || '---';
-                document.getElementById('res-status').textContent = cliente.Estado || cliente.status || 'Pending';
+                document.getElementById('res-status').textContent = cliente.status || cliente.Estado || 'Pending';
 
                 // Manejo de fotos
                 const f1 = document.getElementById('res-foto1');

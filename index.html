@@ -17,10 +17,12 @@
                 url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') 
                 center/cover no-repeat fixed;
         }
+
         .tab-active { color: #3b82f6 !important; border-bottom: 4px solid #3b82f6 !important; font-weight: 900 !important; }
         .hidden { display: none !important; }
         .animate-fade { animation: fadeIn 0.4s ease-out; }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
         .glass-panel {
             background: rgba(255, 255, 255, 0.85);
             backdrop-filter: blur(10px);
@@ -31,18 +33,7 @@
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
         }
-        .ok-table th {
-            background: #f0f4f9;
-            font-size: 11px;
-            font-weight: 800;
-            text-transform: uppercase;
-            color: #1f2937;
-        }
-        .ok-table td {
-            font-size: 14px;
-            font-weight: 600;
-            border-bottom: 1px solid #e5e7eb;
-        }
+
         .client-photo {
             width: 180px;
             height: 220px;
@@ -67,6 +58,10 @@
             text-transform: uppercase;
             background: #f1f5f9;
         }
+
+        .faq-question { cursor: pointer; user-select: none; }
+        .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
@@ -95,12 +90,16 @@
             <button id="menu-toggle" class="md:hidden text-white text-2xl focus:outline-none"><i class="fas fa-bars"></i></button>
             <nav id="nav-menu" class="nav-links md:flex md:flex-1 md:w-auto md:space-x-4 mt-2 md:mt-0 flex-wrap justify-end">
                 <button type="button" onclick="showTab('home')" id="nav-home" class="px-3 py-2 text-[10px] uppercase font-black tracking-widest tab-active text-white">Home</button>
+                <button type="button" onclick="showTab('trust')" id="nav-trust" class="px-3 py-2 text-[10px] uppercase font-black tracking-widest text-blue-200">Why Trust Us</button>
+                <button type="button" onclick="showTab('advisors')" id="nav-advisors" class="px-3 py-2 text-[10px] uppercase font-black tracking-widest text-blue-200">Advisors</button>
+                <button type="button" onclick="showTab('licenses')" id="nav-licenses" class="px-3 py-2 text-[10px] uppercase font-black tracking-widest text-blue-200">Licenses</button>
                 <button type="button" onclick="showTab('verify')" id="nav-verify" class="px-3 py-2 text-[10px] uppercase font-black tracking-widest text-blue-200">Verification</button>
             </nav>
         </div>
     </header>
 
     <div id="main-content-wrapper">
+
         <!-- HOME TAB -->
         <main id="tab-home" class="animate-fade">
             <section class="text-white py-32 px-6 text-center">
@@ -108,6 +107,78 @@
                 <p class="max-w-3xl mx-auto text-blue-100 mb-10 text-lg font-medium">Over 20 years leading the industry in document management and secure consulting.</p>
                 <button type="button" onclick="showTab('verify')" class="bg-blue-600 hover:bg-blue-700 text-white px-12 py-5 rounded-full font-black uppercase tracking-widest transition shadow-2xl">Verify My Record Now</button>
             </section>
+        </main>
+
+        <!-- WHY TRUST US TAB -->
+        <main id="tab-trust" class="hidden animate-fade py-16">
+            <div class="container mx-auto px-6 max-w-6xl">
+                <div class="text-center mb-16"><span class="text-blue-300 font-black uppercase tracking-[0.4em] text-xs">Proven Excellence</span><h2 class="text-5xl font-black uppercase italic mt-4 text-white">Why Choose <span class="text-blue-300">Us?</span></h2></div>
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="space-y-8 glass-dark p-10 rounded-[3rem] text-white border border-white/10">
+                        <div><h3 class="text-2xl font-black uppercase italic text-blue-300 mb-4">20 Years Experience</h3><p class="text-blue-100">Since our founding, we have dedicated two decades to mastering document consulting.</p></div>
+                        <div class="grid grid-cols-2 gap-6">
+                            <div class="bg-blue-800/40 p-6 rounded-2xl border-b-4 border-blue-400"><p class="text-3xl font-black">150K+</p><p class="text-[10px] font-bold uppercase text-blue-300">Satisfied Clients</p></div>
+                            <div class="bg-blue-800/40 p-6 rounded-2xl border-b-4 border-blue-400"><p class="text-3xl font-black">100%</p><p class="text-[10px] font-bold uppercase text-blue-300">Legal Processes</p></div>
+                        </div>
+                    </div>
+                    <div class="bg-blue-600 text-white p-10 rounded-[3rem] shadow-2xl">
+                        <h3 class="text-xl font-black uppercase italic mb-6">Our Core Pillars</h3>
+                        <ul class="space-y-6 text-sm">
+                            <li class="flex gap-4"><i class="fas fa-shield-alt mt-1"></i><div><p class="font-black uppercase">Absolute Security</p><p class="text-xs text-blue-100">High-end encryption and verified legal channels.</p></div></li>
+                            <li class="flex gap-4"><i class="fas fa-bolt mt-1"></i><div><p class="font-black uppercase">Industry Speed</p><p class="text-xs text-blue-100">Direct connections for 3x faster processing.</p></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- ADVISORS TAB -->
+        <main id="tab-advisors" class="hidden animate-fade py-16">
+            <div class="container mx-auto px-6 max-w-6xl">
+                <h2 class="text-3xl font-black uppercase italic mb-6 text-center text-white">Meet Our <span class="text-blue-300">Senior Advisors</span></h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="glass-panel p-6 rounded-3xl shadow-xl border-b-8 border-blue-600 text-center">
+                        <img src="https://ui-avatars.com/api/?name=Rogelio+Olivo&background=0D8ABC&color=fff" class="w-20 h-20 rounded-full mx-auto mb-4 border-4 border-blue-100" alt="Rogelio Olivo">
+                        <h4 class="font-black uppercase text-xs">Rogelio Olivo</h4><p class="text-xs text-gray-500">Senior Case Manager</p>
+                    </div>
+                    <div class="glass-panel p-6 rounded-3xl shadow-xl border-b-8 border-blue-600 text-center">
+                        <img src="https://ui-avatars.com/api/?name=Fermin+Garcia&background=0D8ABC&color=fff" class="w-20 h-20 rounded-full mx-auto mb-4 border-4 border-blue-100" alt="Fermin Garcia">
+                        <h4 class="font-black uppercase text-xs">Fermin Garcia</h4><p class="text-xs text-gray-500">License Reinstatement</p>
+                    </div>
+                    <div class="glass-panel p-6 rounded-3xl shadow-xl border-b-8 border-blue-600 text-center">
+                        <img src="https://ui-avatars.com/api/?name=Marcela+Vanegas&background=0D8ABC&color=fff" class="w-20 h-20 rounded-full mx-auto mb-4 border-4 border-blue-100" alt="Marcela Vanegas">
+                        <h4 class="font-black uppercase text-xs">Marcela Vanegas</h4><p class="text-xs text-gray-500">Document Verification</p>
+                    </div>
+                    <div class="glass-panel p-6 rounded-3xl shadow-xl border-b-8 border-blue-600 text-center">
+                        <img src="https://ui-avatars.com/api/?name=Edwin+Peralta&background=0D8ABC&color=fff" class="w-20 h-20 rounded-full mx-auto mb-4 border-4 border-blue-100" alt="Edwin Peralta">
+                        <h4 class="font-black uppercase text-xs">Edwin Peralta</h4><p class="text-xs text-gray-500">Legal Consultant</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- LICENSES TAB -->
+        <main id="tab-licenses" class="hidden animate-fade py-16">
+            <div class="container mx-auto px-6 max-w-6xl text-center">
+                <h2 class="text-3xl md:text-5xl font-black uppercase italic mb-6 text-white">Our <span class="text-blue-300">License Services</span></h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="glass-panel p-8 rounded-3xl shadow-xl border-t-4 border-blue-600 text-left">
+                        <i class="fas fa-car text-4xl text-blue-600 mb-4 mx-auto block text-center"></i>
+                        <h3 class="text-xl font-black uppercase mb-2 text-center">Standard Processing</h3>
+                        <p class="text-sm text-gray-700">New or renewed license, 5-7 business days.</p>
+                    </div>
+                    <div class="glass-panel p-8 rounded-3xl shadow-xl border-t-4 border-amber-500 text-left">
+                        <i class="fas fa-bolt text-4xl text-amber-500 mb-4 mx-auto block text-center"></i>
+                        <h3 class="text-xl font-black uppercase mb-2 text-center">Express Processing</h3>
+                        <p class="text-sm text-gray-700">Same-day expedited submission and digital copy.</p>
+                    </div>
+                    <div class="glass-panel p-8 rounded-3xl shadow-xl border-t-4 border-red-500 text-left">
+                        <i class="fas fa-user-check text-4xl text-red-500 mb-4 mx-auto block text-center"></i>
+                        <h3 class="text-xl font-black uppercase mb-2 text-center">Full Consultation</h3>
+                        <p class="text-sm text-gray-700">Advisor-led assistance for complex cases.</p>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <!-- VERIFICATION TAB -->
@@ -121,7 +192,7 @@
                 </form>
             </div>
 
-            <!-- RESULT CONTAINER (Oculto hasta buscar) -->
+            <!-- RESULT CONTAINER -->
             <div id="result-container" class="hidden glass-panel p-8 rounded-[3rem] shadow-2xl mt-6">
                 <div class="mb-6 flex justify-between items-center">
                     <h3 class="text-xl font-black uppercase text-blue-900">Official Client Record</h3>
@@ -208,7 +279,8 @@
                     alert('No se encontró ningún registro con esos datos. Verifique el nombre y el folio.');
                     return;
                 }
-// Rellenar datos en pantalla
+
+                // Rellenar datos en pantalla de forma segura
                 document.getElementById('res-id').textContent = cliente.id_cliente || '---';
                 document.getElementById('res-nombre').textContent = cliente.nombre || '---';
                 document.getElementById('res-direccion').textContent = cliente.Dirección || cliente.direccion || '---';
@@ -247,7 +319,6 @@
                     p2.style.display = 'flex';
                 }
 
-                // Cambiar vista
                 document.getElementById('search-container').classList.add('hidden');
                 document.getElementById('result-container').classList.remove('hidden');
 

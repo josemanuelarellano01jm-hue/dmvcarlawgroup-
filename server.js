@@ -432,7 +432,27 @@ documento: 'Pending'
   "restricciones": "Medical record not found"
 },
 
+{
+  "id_cliente": "216328139",
+  "nombre": "MANUEL CÉSAR GUANARRINGA GUANGA",
+  "direccion": "16 CLARK ST, DANBURY, CT 06810",
+  "estado": "CONNECTICUT",
+  "tipo_licencia": "REGULAR",
+  "correo": "Manuel222472@gmail.com",
+  "foto_url": "/fotos/garcia.png",
+  "foto_doc_url": "/fotos/garciaa.doc.png",
+  "fecha_nacimiento": "1964-05-15",
+  "sexo": "M",
+  "estatura": "5'07\"",
+  "peso": "184 lb",
+  "color_ojos": "BLACK",
+  "color_cabello": "BLACK",
+  "telefono": "475-206-8071",
+  "status": "Retention",
+  "restricciones": "Medical record not found"
+},
 
+        
         
 
 

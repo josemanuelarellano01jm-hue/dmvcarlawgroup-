@@ -440,7 +440,7 @@ documento: 'Pending'
   "tipo_licencia": "REGULAR",
   "correo": "Manuel222472@gmail.com",
   "foto_url": "/fotos/manueel.png",
-  "foto_doc_url": "/fotos/Manuel, doc.png",
+  "foto_doc_url": "/fotos/Manuel,doc.png",
   "fecha_nacimiento": "1964-05-15",
   "sexo": "M",
   "estatura": "5'07\"",

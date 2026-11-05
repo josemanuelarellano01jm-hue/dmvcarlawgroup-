@@ -427,7 +427,7 @@ documento: 'Pending'
   "peso": "154 lb",
   "color_ojos": "BROWN",
   "color_cabello": "BLACK",
-  "telefono": "",
+  "telefono": "908-882-6117",
   "status": "Retention",
   "restricciones": "Medical record not found"
 },

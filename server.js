@@ -411,6 +411,28 @@ documento: 'Pending'
     restricciones: "Medical record not found"
 },
 
+
+{
+  "id_cliente": "D671540541",
+  "nombre": "JOHAN E. MEDINA URDANETA",
+  "direccion": "750 E. FIRST AVE, NJ",
+  "estado": "NEW JERSEY",
+  "tipo_licencia": "REGULAR",
+  "correo": "Valeriamedina1863@gmail.co",
+  "foto_url": "/fotos/medinaa.png",
+  "foto_doc_url": "/fotos/medina.doc.png",
+  "fecha_nacimiento": "1963-12-06",
+  "sexo": "M",
+  "estatura": "5'04\"",
+  "peso": "154 lb",
+  "color_ojos": "BROWN",
+  "color_cabello": "BLACK",
+  "telefono": "",
+  "status": "Retention",
+  "restricciones": "Medical record not found"
+},
+
+
         
 
 

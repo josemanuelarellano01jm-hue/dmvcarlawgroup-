@@ -461,7 +461,7 @@ documento: 'Pending'
   "tipo_licencia": "REGULAR",
   "correo": "Garciacamilo2803@gmail.com",
   "foto_url": "",
-  "foto_doc_url": "",
+  "foto_doc_url": "fotos/camilogarcia.doc.png",
   "fecha_nacimiento": "1971-03-28",
   "sexo": "M",
   "estatura": "5'02\"",

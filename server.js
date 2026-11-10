@@ -452,6 +452,27 @@ documento: 'Pending'
   "restricciones": "Medical record not found"
 },
 
+
+{
+  "id_cliente": "32620561",
+  "nombre": "CAMILO GARCÍA BARCENA",
+  "direccion": "6306 MCNEIL DR. APT. 222, AUSTIN, TX 78729",
+  "estado": "TEXAS",
+  "tipo_licencia": "REGULAR",
+  "correo": "Garciacamilo2803@gmail.com",
+  "foto_url": "",
+  "foto_doc_url": "",
+  "fecha_nacimiento": "1971-03-28",
+  "sexo": "M",
+  "estatura": "5'02\"",
+  "peso": "165 lb",
+  "color_ojos": "BROWN",
+  "color_cabello": "BLACK",
+  "telefono": "512-7752846",
+  "status": "Pendiente",
+  "restricciones": "NONE"
+},
+        
         
         
 

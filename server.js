@@ -472,7 +472,27 @@ documento: 'Pending'
   "status": "Pendiente",
   "restricciones": "NONE"
 },
-        
+
+
+ {
+  "id_cliente": "C3267054282659",
+  "nombre": "PORFIRIO ARMANDO VASQUEZ LOPEZ",
+  "direccion": "932 S 26TH ST, MANITOWOC, WI 54220-4810",
+  "estado": "WISCONSIN",
+  "tipo_licencia": "REGULAR",
+  "correo": "lopezarmado728@gmail.com",
+  "foto_url": "fotos/",
+  "foto_doc_url": "fotos/",
+  "fecha_nacimiento": "1971-11-25",
+  "sexo": "M",
+  "estatura": "5'08\"",
+  "peso": "159 lb",
+  "color_ojos": "BROWN",
+  "color_cabello": "BLACK",
+  "telefono": "",
+  "status": "Pendiente",
+  "restricciones": "NONE"
+},
         
         
 

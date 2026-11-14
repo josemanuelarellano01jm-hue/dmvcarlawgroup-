@@ -493,6 +493,26 @@ documento: 'Pending'
   "status": "Pendiente",
   "restricciones": "NONE"
 },
+
+ {
+  "id_cliente": "32720162",
+  "nombre": "ANASTACIO PORTILLO NUNEZ",
+  "direccion": "13311 DUNLAP ST SUITE F, HOUSTON, TX 77085",
+  "estado": "TEXAS",
+  "tipo_licencia": "REGULAR",
+  "correo": "anastacioportillo@gmail.com",
+  "foto_url": "fotos/portilllo.png",
+  "foto_doc_url": "fotos/portillo.doc.png",
+  "fecha_nacimiento": "1962-04-05",
+  "sexo": "M",
+  "estatura": "5'06\"",
+  "peso": "172 lb",
+  "color_ojos": "BROWN",
+  "color_cabello": "BLACK",
+  "telefono": "346-716-1790",
+  "status": "Pendiente",
+  "restricciones": "NONE"
+},
         
         
 

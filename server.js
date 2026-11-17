@@ -523,7 +523,7 @@ documento: 'Pending'
   "tipo_licencia": "REGULAR",
   "correo": "hmaricruz071@gmail.com",
   "foto_url": "fotos/hernandezz.png",
-  "foto_doc_url": "fotos/hernandez.doc.png",
+  "foto_doc_url": "fotos/HERNANDE.doc.png",
   "fecha_nacimiento": "2005-03-05",
   "sexo": "F",
   "estatura": "5'03\"",

@@ -513,6 +513,27 @@ documento: 'Pending'
   "status": "Pendiente",
   "restricciones": "NONE"
 },
+
+
+  {
+  "id_cliente": "2119262728",
+  "nombre": "MARICRUZ HERNANDEZ SANCHEZ",
+  "direccion": "4630 KOVAL LN APT 72 C, LAS VEGAS, NV 89109",
+  "estado": "NEVADA",
+  "tipo_licencia": "REGULAR",
+  "correo": "hmaricruz071@gmail.com",
+  "foto_url": "fotos/",
+  "foto_doc_url": "fotos/",
+  "fecha_nacimiento": "2005-03-05",
+  "sexo": "F",
+  "estatura": "5'03\"",
+  "peso": "130 lb",
+  "color_ojos": "BROWN",
+  "color_cabello": "BLACK",
+  "telefono": "725-3217846",
+  "status": "Pendiente",
+  "restricciones": "NONE"
+}
         
         
 

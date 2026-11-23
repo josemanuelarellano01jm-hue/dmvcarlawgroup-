@@ -500,7 +500,7 @@ documento: 'Pending'
 
  {
   "id_cliente": "5460219",
-  "nombre": "MILTON F CERDA VELÁSQUEZ",
+  "nombre": "MILTON F CERDA VELASQUEZ",
   "direccion": "3030 ATCHISON ST, AURORA, CO 80011",
   "estado": "COLORADO",
   "tipo_licencia": "REGULAR",

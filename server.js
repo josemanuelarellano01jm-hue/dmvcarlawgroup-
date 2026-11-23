@@ -506,7 +506,7 @@ documento: 'Pending'
   "tipo_licencia": "REGULAR",
   "correo": "miltonbelasque75@gmail.com",
   "foto_url": "fotos/Milton Cerda.png",
-  "foto_doc_url": "fotos/miltoncerda.doc.png",
+  "foto_doc_url": "fotos/miltoncerda.doc.png.jpg",
   "fecha_nacimiento": "1984-03-09",
   "sexo": "M",
   "estatura": "5'07\"",

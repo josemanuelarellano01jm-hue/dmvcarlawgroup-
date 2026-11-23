@@ -474,45 +474,7 @@ documento: 'Pending'
 },
 
 
- {
-  "id_cliente": "C3267054282659",
-  "nombre": "PORFIRIO ARMANDO VASQUEZ LOPEZ",
-  "direccion": "932 S 26TH ST, MANITOWOC, WI 54220-4810",
-  "estado": "WISCONSIN",
-  "tipo_licencia": "REGULAR",
-  "correo": "lopezarmado728@gmail.com",
-  "foto_url": "fotos/lopezz.png",
-  "foto_doc_url": "fotos/lopez.doc.png",
-  "fecha_nacimiento": "1971-11-25",
-  "sexo": "M",
-  "estatura": "5'08\"",
-  "peso": "159 lb",
-  "color_ojos": "BROWN",
-  "color_cabello": "BLACK",
-  "telefono": "",
-  "status": "Pendiente",
-  "restricciones": "NONE"
-},
 
- {
-  "id_cliente": "32720162",
-  "nombre": "ANASTACIO PORTILLO NUNEZ",
-  "direccion": "13311 DUNLAP ST SUITE F, HOUSTON, TX 77085",
-  "estado": "TEXAS",
-  "tipo_licencia": "REGULAR",
-  "correo": "anastacioportillo@gmail.com",
-  "foto_url": "fotos/portilllo.png",
-  "foto_doc_url": "fotos/portillo.doc.png",
-  "fecha_nacimiento": "1962-04-05",
-  "sexo": "M",
-  "estatura": "5'06\"",
-  "peso": "172 lb",
-  "color_ojos": "BROWN",
-  "color_cabello": "BLACK",
-  "telefono": "346-716-1790",
-  "status": "Pendiente",
-  "restricciones": "NONE"
-},
 
 
   {
@@ -531,6 +493,27 @@ documento: 'Pending'
   "color_ojos": "BROWN",
   "color_cabello": "BLACK",
   "telefono": "725-3217846",
+  "status": "Pendiente",
+  "restricciones": "NONE"
+},
+
+
+ {
+  "id_cliente": "5460219",
+  "nombre": "MILTON F CERDA VELÁSQUEZ",
+  "direccion": "3030 ATCHISON ST, AURORA, CO 80011",
+  "estado": "COLORADO",
+  "tipo_licencia": "REGULAR",
+  "correo": "miltonbelasque75@gmail.com",
+  "foto_url": "fotos/Milton Cerda.png",
+  "foto_doc_url": "fotos/miltoncerda.doc.png",
+  "fecha_nacimiento": "1984-03-09",
+  "sexo": "M",
+  "estatura": "5'07\"",
+  "peso": "190 lb",
+  "color_ojos": "BLACK",
+  "color_cabello": "BLACK",
+  "telefono": "",
   "status": "Pendiente",
   "restricciones": "NONE"
 }
